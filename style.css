@@ -7,7 +7,9 @@ body{
 }
 h1{
     position: absolute;
-    left: 44%;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .level{
     position: relative;
@@ -83,7 +85,8 @@ button{
     width: 100px;
     height: 45px;
     top:82%;
-    left: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     background-color: rgb(171, 192, 37);
