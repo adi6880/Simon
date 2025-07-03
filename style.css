@@ -1,0 +1,95 @@
+
+body{
+
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+h1{
+    position: absolute;
+    left: 44%;
+}
+.level{
+    position: relative;
+    font-size: 30px;
+    top:90px;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid white; */
+
+}
+.box1{
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: red;
+}
+.box1:hover{
+    box-shadow: 0 0 30px red;
+    transition: 0.3s ease;
+}
+.box2{
+    position:absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: blue;
+    top:0px;
+    left:210px; 
+}
+.box2:hover{
+    box-shadow: 0 0 30px rgb(81, 81, 247);
+    transition: 0.2s ease;
+}
+.box3{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: yellow;
+    top: 17px;
+    left: 210px;
+}
+.box3:hover{
+    box-shadow: 0 0 30px yellow;
+    transition: 0.2s ease;
+}
+.box4 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: green;
+    top: 210px;
+}
+.box4:hover{
+    box-shadow: 0 0 30px rgb(29, 248, 29);
+    transition: 0.2s ease;
+}
+.box{
+    border-radius: 15%;
+    cursor: pointer;
+}
+button{
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top:82%;
+    left: 47%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(171, 192, 37);
+    border-radius: 20px;
+}
+.flash{
+    background-color: white;
+    box-shadow: 0px 0px 20px white;
+}
